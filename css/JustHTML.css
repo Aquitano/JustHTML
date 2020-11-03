@@ -9,23 +9,65 @@ html {
   overflow-x: hidden;
 }
 .fade-in {
-  position: relative;
+  animation-name: fade-in;
+  animation-duration: 400ms;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+  }
+}
+.fade-in.AppearOnScroll {
   opacity: 0;
 }
-.fade-in.appear {
+.fade-in.AppearOnScroll.appear {
   opacity: 1;
   transition: opacity 250ms ease-in;
 }
 .from-left {
-  transform: translateX(-50%);
-  opacity: 0;
+  animation-name: from-left;
+  animation-duration: 400ms;
 }
 .from-right {
+  animation-name: from-right;
+  animation-duration: 400ms;
+}
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 500ms ease-in, transform 400ms ease-in;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes from-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 500ms ease-in, transform 400ms ease-in;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.from-left.AppearOnScroll {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.from-right.AppearOnScroll {
   transform: translateX(100%);
   opacity: 0;
 }
-.from-right.appear,
-.from-left.appear {
+.from-right.AppearOnScroll.appear,
+.from-left.AppearOnScroll.appear {
   transform: translateX(0);
   transition: opacity 500ms ease-in, transform 400ms ease-in;
   opacity: 1;
