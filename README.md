@@ -1,7 +1,6 @@
 # JustHTML
 
 ## **Usage** ##
-Add to <header>:
-  <linkhref="https://aquitano.github.io/Other/JustHTML/JustHTML.css"rel="stylesheet"/>
-Add to <bod>:
+Add the two lines to your html code:
+  <link href="https://aquitano.github.io/Other/JustHTML/JustHTML.css"rel="stylesheet"/>
   <script src="https://aquitano.github.io/Other/JustHTML/JustHTML.js"></script>
