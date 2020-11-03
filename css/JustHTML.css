@@ -8,6 +8,7 @@
 html {
   overflow-x: hidden;
 }
+
 .fade-in {
   animation-name: fade-in;
   animation-duration: 400ms;
@@ -28,12 +29,21 @@ html {
   opacity: 1;
   transition: opacity 250ms ease-in;
 }
+
 .from-left {
   animation-name: from-left;
   animation-duration: 400ms;
 }
 .from-right {
   animation-name: from-right;
+  animation-duration: 400ms;
+}
+.from-up {
+  animation-name: from-up;
+  animation-duration: 400ms;
+}
+.from-down {
+  animation-name: from-down;
   animation-duration: 400ms;
 }
 @keyframes from-right {
@@ -58,6 +68,28 @@ html {
     transform: translateX(0);
   }
 }
+@keyframes from-up {
+  0% {
+    opacity: 0;
+    transform: translateY(-250%);
+    transition: opacity 500ms ease-in, transform 400ms ease-in;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes from-down {
+  0% {
+    opacity: 0;
+    transform: translateY(250%);
+    transition: opacity 500ms ease-in, transform 400ms ease-in;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .from-left.AppearOnScroll {
   transform: translateX(-100%);
   opacity: 0;
@@ -69,6 +101,20 @@ html {
 .from-right.AppearOnScroll.appear,
 .from-left.AppearOnScroll.appear {
   transform: translateX(0);
+  transition: opacity 500ms ease-in, transform 400ms ease-in;
+  opacity: 1;
+}
+.from-up.AppearOnScroll {
+  transform: translateY(-250%);
+  opacity: 0;
+}
+.from-down.AppearOnScroll {
+  transform: translateY(250%);
+  opacity: 0;
+}
+.from-up.AppearOnScroll.appear,
+.from-down.AppearOnScroll.appear {
+  transform: translateY(0);
   transition: opacity 500ms ease-in, transform 400ms ease-in;
   opacity: 1;
 }
