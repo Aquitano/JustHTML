@@ -8,12 +8,12 @@
 html {
   overflow-x: hidden;
 }
-
-.fade-in {
-  animation-name: fade-in;
+/* Fade-In */
+.Fade-in {
+  animation-name: Fade-in;
   animation-duration: 400ms;
 }
-@keyframes fade-in {
+@keyframes Fade-in {
   0% {
     opacity: 0;
   }
@@ -22,31 +22,31 @@ html {
     transition: opacity 250ms ease-in;
   }
 }
-.fade-in.AppearOnScroll {
+.Fade-in.AppearOnScroll {
   opacity: 0;
 }
-.fade-in.AppearOnScroll.appear {
+.Fade-in.AppearOnScroll.appear {
   opacity: 1;
   transition: opacity 250ms ease-in;
 }
-
-.from-left {
-  animation-name: from-left;
+/* Fly-In */
+.Fly-in-left {
+  animation-name: Fly-in-left;
   animation-duration: 400ms;
 }
-.from-right {
-  animation-name: from-right;
+.Fly-in-right {
+  animation-name: Fly-in-right;
   animation-duration: 400ms;
 }
-.from-up {
-  animation-name: from-up;
+.Fly-in-up {
+  animation-name: Fly-in-up;
   animation-duration: 400ms;
 }
-.from-down {
-  animation-name: from-down;
+.Fly-in-down {
+  animation-name: Fly-in-down;
   animation-duration: 400ms;
 }
-@keyframes from-right {
+@keyframes Fly-in-right {
   0% {
     opacity: 0;
     transform: translateX(100%);
@@ -57,7 +57,7 @@ html {
     transform: translateX(0);
   }
 }
-@keyframes from-left {
+@keyframes Fly-in-left {
   0% {
     opacity: 0;
     transform: translateX(-100%);
@@ -68,7 +68,7 @@ html {
     transform: translateX(0);
   }
 }
-@keyframes from-up {
+@keyframes Fly-in-up {
   0% {
     opacity: 0;
     transform: translateY(-250%);
@@ -79,7 +79,7 @@ html {
     transform: translateY(0);
   }
 }
-@keyframes from-down {
+@keyframes Fly-in-down {
   0% {
     opacity: 0;
     transform: translateY(250%);
@@ -90,31 +90,46 @@ html {
     transform: translateY(0);
   }
 }
-.from-left.AppearOnScroll {
+.Fly-in-left.AppearOnScroll {
   transform: translateX(-100%);
   opacity: 0;
 }
-.from-right.AppearOnScroll {
+.Fly-in-right.AppearOnScroll {
   transform: translateX(100%);
   opacity: 0;
 }
-.from-right.AppearOnScroll.appear,
-.from-left.AppearOnScroll.appear {
+.Fly-in-right.AppearOnScroll.appear,
+.Fly-in-left.AppearOnScroll.appear {
   transform: translateX(0);
   transition: opacity 500ms ease-in, transform 400ms ease-in;
   opacity: 1;
 }
-.from-up.AppearOnScroll {
+.Fly-in-up.AppearOnScroll {
   transform: translateY(-250%);
   opacity: 0;
 }
-.from-down.AppearOnScroll {
+.Fly-in-down.AppearOnScroll {
   transform: translateY(250%);
   opacity: 0;
 }
-.from-up.AppearOnScroll.appear,
-.from-down.AppearOnScroll.appear {
+.Fly-in-up.AppearOnScroll.appear,
+.Fly-in-down.AppearOnScroll.appear {
   transform: translateY(0);
   transition: opacity 500ms ease-in, transform 400ms ease-in;
   opacity: 1;
+}
+/* Zoom-In */
+.Zoom-in {
+  animation-duration: 600ms;
+  animation-name: Zoom-In;
+}
+@keyframes Zoom-In {
+  0% {
+    opacity: 0;
+    font-size: 0%;
+  }
+  100% {
+    opacity: 1;
+    font-size: 100;
+  }
 }
