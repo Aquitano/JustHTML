@@ -130,6 +130,91 @@ html {
   }
   100% {
     opacity: 1;
-    font-size: 100;
+    font-size: 100%;
+  }
+}
+
+/* Entrance Side */
+
+.Entrance-left {
+  animation-name: Entrance-left;
+  animation-duration: 800ms;
+}
+.Entrance-right {
+  animation-name: Entrance-right;
+  animation-duration: 800ms;
+}
+.Entrance-up {
+  animation-name: Entrance-up;
+  animation-duration: 730ms;
+}
+.Entrance-down {
+  animation-name: Entrance-down;
+  animation-duration: 730ms;
+}
+@keyframes Entrance-right {
+  0% {
+    transform: translateX(2000px);
+    opacity: 0;
+    transition: opacity 500ms ease-in, transform 400ms ease-in;
+    font-size: 75%;
+  }
+  80% {
+    transform: translateX(25px);
+    font-size: 75%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    font-size: 100%;
+  }
+}
+@keyframes Entrance-left {
+  0% {
+    transform: translateX(-2000px);
+    opacity: 0;
+    transition: opacity 500ms ease-in, transform 400ms ease-in;
+    font-size: 75%;
+  }
+  80% {
+    transform: translateX(25px);
+    font-size: 75%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    font-size: 100%;
+  }
+}
+@keyframes Entrance-up {
+  0% {
+    transform: translateY(-2000px) translateX(50px);
+    opacity: 0;
+    transition: opacity 500ms ease-in, transform 400ms ease-in;
+    font-size: 60%;
+  }
+  80% {
+    font-size: 60%;
+  }
+  100% {
+    transform: translateY(0) translateX(0px);
+    opacity: 1;
+    font-size: 100%;
+  }
+}
+@keyframes Entrance-down {
+  0% {
+    transform: translateY(2000px) translateX(50px);
+    opacity: 0;
+    transition: opacity 500ms ease-in, transform 400ms ease-in;
+    font-size: 60%;
+  }
+  80% {
+    font-size: 60%;
+  }
+  100% {
+    transform: translateY(0) translateX(0px);
+    opacity: 1;
+    font-size: 100%;
   }
 }
