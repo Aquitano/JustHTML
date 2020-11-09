@@ -7,14 +7,14 @@ Add the two lines to your html code: <br />
 
 ## **Class** ##
 
-> AppearOnScroll: Animation only happens when seen by viewer (scroll) <br />
-> Fade-in <br />
-> Fly-in-left <br />
-> Fly-in-right <br />
-> Fly-in-up <br />
-> Fly-in-down <br />
-> Zoom-in <br />
-> Entrance-left <br />
-> Entrance-right <br />
-> Entrance-up <br />
-> Entrance-down <br />
+> - AppearOnScroll: Animation only happens when seen by viewer (scroll) <br />
+> - Fade-in <br />
+> - Fly-in-left <br />
+> - Fly-in-right <br />
+> - Fly-in-up <br />
+> - Fly-in-down <br />
+> - Zoom-in <br />
+> - Entrance-left <br />
+> - Entrance-right <br />
+> - Entrance-up <br />
+> - Entrance-down <br />
