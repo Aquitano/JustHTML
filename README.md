@@ -20,4 +20,4 @@ Add the two lines to your html code: <br />
 > - Entrance-down <br />
 
 ## **Examples** ##
-> www.aquitano.github.io/index/Other/JustHTML/examples
+> https://aquitano.github.io/index/Other/JustHTML/examples
