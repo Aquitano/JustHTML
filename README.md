@@ -18,3 +18,6 @@ Add the two lines to your html code: <br />
 > - Entrance-right <br />
 > - Entrance-up <br />
 > - Entrance-down <br />
+
+## **Examples** ##
+> www.aquitano.github.io/index/Other/JustHTML/examples
