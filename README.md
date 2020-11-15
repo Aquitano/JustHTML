@@ -4,6 +4,9 @@
 Add the two lines to your html code: <br />
   >`<link href="https://aquitano.github.io/Other/JustHTML/JustHTML.css" rel="stylesheet"/>` <br />
   >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.js"></script>`
+Minified files: <br />
+  >`<link href="https://aquitano.github.io/Other/JustHTML/JustHTML.min.css" rel="stylesheet"/>` <br />
+  >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.min.js"></script>`
 
 ## **Problems?** ## 
 If you have a problem contact me or <a href="https://github.com/Aquitano/JustHTML/issues">open an issue</a>
