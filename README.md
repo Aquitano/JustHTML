@@ -33,4 +33,4 @@ If you have a problem contact me or <a href="https://github.com/Aquitano/JustHTM
 > - Entrance-down <br />
 
 ## **Examples**
-> https://aquitano.github.io/Other/JustHTML/examples
+https://aquitano.github.io/Other/JustHTML/examples
