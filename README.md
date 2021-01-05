@@ -10,13 +10,13 @@ Minified files: <br />
   >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.min.js"></script>`
 
 ## **Examples** 
-<a href="https://aquitano.github.io/Other/JustHTML/examples">Hier zum Beispielseite</a>
+<a href="https://aquitano.github.io/Other/JustHTML/examples">Website with examples</a>.
 
 # **Source Code**
-<a href="https://github.com/Aquitano/JustHTML/releases">Hier zum neusten Release</a>
+<a href="https://github.com/Aquitano/JustHTML/releases">To the newest release</a>!
 
 ## **Problems?** 
-If you have a problem contact me or <a href="https://github.com/Aquitano/JustHTML/issues">open an issue</a>
+If you have a problem contact me or <a href="https://github.com/Aquitano/JustHTML/issues">open an issue</a>!
 
 ## **Class**
 
@@ -31,6 +31,3 @@ If you have a problem contact me or <a href="https://github.com/Aquitano/JustHTM
 > - Entrance-right <br />
 > - Entrance-up <br />
 > - Entrance-down <br />
-
-## **Examples**
-https://aquitano.github.io/Other/JustHTML/examples
