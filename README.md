@@ -15,10 +15,13 @@ Minified files: <br />
 # **Source Code**
 <a href="https://github.com/Aquitano/JustHTML/releases">To the newest release</a>!
 
+# **Roadmap**
+<a href="https://trello.com/b/U4zyGVv3/roadmap">To roadmap</a>!
+
 ## **Problems?** 
 If you have a problem contact me or <a href="https://github.com/Aquitano/JustHTML/issues">open an issue</a>!
 
-## **Class**
+## **Classes**
 
 > - AppearOnScroll: Animation only happens when seen by viewer (scroll) <br />
 > - Fade-in <br />
