@@ -1,7 +1,7 @@
 # JustHTML
 
 ## **Usage** 
-Add the two lines to your html code: <br />
+Add the two lines to your html code <br />(files via links are only the <a href="https://github.com/Aquitano/JustHTML/releases/latest">latest release</a> and not actually the version with the latest commits. Clone it for latest commits!): <br />
   >`<link href="https://aquitano.github.io/Other/JustHTML/JustHTML.css" rel="stylesheet"/>` <br />
   >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.js"></script>` <br />
 
@@ -13,7 +13,7 @@ Minified files: <br />
 <a href="https://aquitano.github.io/Other/JustHTML/examples">Website with examples</a>.
 
 # **Source Code**
-<a href="https://github.com/Aquitano/JustHTML/releases">To the newest release</a>!
+<a href="https://github.com/Aquitano/JustHTML/releases/latest">To the newest release</a>!
 
 # **Roadmap**
 <a href="https://trello.com/b/U4zyGVv3/roadmap">To the roadmap</a>!
