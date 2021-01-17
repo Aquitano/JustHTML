@@ -3,11 +3,12 @@
 ## **Usage** 
 Add the two lines to your html code <br />(files via links are only the <a href="https://github.com/Aquitano/JustHTML/releases/latest">latest release</a> and not actually the version with the latest commits. Clone it for latest commits!): <br />
   >`<link href="https://aquitano.github.io/Other/JustHTML/JustHTML.css" rel="stylesheet"/>` <br />
-  >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.js"></script>` <br />
+  >`<link href="https://aquitano.github.io/Other/JustHTML/JustHTML.min.css" rel="stylesheet"/>` (Minified)<br />
 
-Minified files: <br />
-  >`<link href="https://aquitano.github.io/Other/JustHTML/JustHTML.min.css" rel="stylesheet"/>` <br />
-  >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.min.js"></script>`
+  Optional JavaScript(for more features): <br />
+
+  >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.js"></script>` <br />
+  >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.min.js"></script>` (Minified)
 
 ## **Examples** 
 <a href="https://aquitano.github.io/Other/JustHTML/examples">Website with examples</a>.
