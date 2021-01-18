@@ -50,10 +50,10 @@ function replayA() {
     }, 100);
   } else {
     var x = document.querySelectorAll("#D9");
-    var gotclass = x[1].classList.item(0);
-    x[1].classList.remove(gotclass);
+    var gotclasses = x[1].classList.item(0);
+    x[1].classList.remove(gotclasses);
     delay(function () {
-      x[1].classList.add(gotclass);
+      x[1].classList.add(gotclasses);
     }, 100);
   }
 }

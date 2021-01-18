@@ -5,7 +5,7 @@ Add the two lines to your html code <br />(files via links are only the <a href=
   >`<link href="https://aquitano.github.io/Other/JustHTML/JustHTML.css" rel="stylesheet"/>` <br />
   >`<link href="https://aquitano.github.io/Other/JustHTML/JustHTML.min.css" rel="stylesheet"/>` (Minified)<br />
 
-  Optional JavaScript(for more features): <br />
+  Optional JavaScript (for more features): <br />
 
   >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.js"></script>` <br />
   >`<script src="https://aquitano.github.io/Other/JustHTML/JustHTML.min.js"></script>` (Minified)
