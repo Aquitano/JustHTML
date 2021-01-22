@@ -7,7 +7,6 @@ var delay = (function () {
   };
 })();
 function printSlideIndex() {
-  document.querySelector(".js-index").innerHTML = this.currentSlide + 1;
   slider = this.currentSlide;
   let classes = [
     "Fade-in",
