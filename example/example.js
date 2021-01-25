@@ -20,8 +20,12 @@ function printSlideIndex() {
     "Entrance-up",
     "Entrance-down",
     "bounce-In",
+    "bounce-In-right",
+    "bounce-In-left",
+    "bounce-In-up",
+    "bounce-In-down"
   ];
-  if (slider != 10) {
+  if (slider != 14) {
     var element = document.getElementById("D" + slider);
     element.classList.remove(classes[slider]);
     element.classList.add("invisible");
@@ -30,7 +34,7 @@ function printSlideIndex() {
       element.classList.remove("invisible");
     }, 600);
   } else {
-    var x = document.querySelectorAll("#D10");
+    var x = document.querySelectorAll("#D14");
     x[1].classList.remove(classes[slider]);
     x[1].classList.add("invisible");
     delay(function () {
@@ -41,7 +45,7 @@ function printSlideIndex() {
   }
 }
 function replayA() {
-  if (slider != 10) {
+  if (slider != 14) {
     var element = document.getElementById("D" + slider);
     var gotclass = element.classList.item(0);
     element.classList.remove(gotclass);
@@ -49,7 +53,7 @@ function replayA() {
       element.classList.add(gotclass);
     }, 100);
   } else {
-    var x = document.querySelectorAll("#D10");
+    var x = document.querySelectorAll("#D14");
     var gotclasses = x[1].classList.item(0);
     x[1].classList.remove(gotclasses);
     delay(function () {

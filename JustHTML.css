@@ -9,9 +9,26 @@ html {
   overflow-x: hidden;
   overflow-y: auto;
 }
+/* Bounce */
 .bounce-In {
   animation-name: bounce-In;
   animation-duration: 400ms;
+}
+.bounce-In-down {
+  animation-name: bounce-In-down;
+  animation-duration: 800ms;
+}
+.bounce-In-up {
+  animation-name: bounce-In-up;
+  animation-duration: 800ms;
+}
+.bounce-In-left {
+  animation-name: bounce-In-left;
+  animation-duration: 800ms;
+}
+.bounce-In-right {
+  animation-name: bounce-In-right;
+  animation-duration: 800ms;
 }
 @keyframes bounce-In {
   0% {
@@ -39,6 +56,98 @@ html {
   100% {
     opacity: 1;
     transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes bounce-In-down {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -2500px, 0) scaleY(2.5);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0) scaleY(0.9);
+  }
+
+  75% {
+    transform: translate3d(0, -10px, 0) scaleY(0.95);
+  }
+
+  90% {
+    transform: translate3d(0, 5px, 0) scaleY(0.985);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounce-In-up {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 2500px, 0) scaleY(4);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0) scaleY(0.9);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0) scaleY(0.95);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0) scaleY(0.985);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounce-In-left {
+  0% {
+    opacity: 0;
+    transform: translate3d(-2500px, 0, 0) scaleX(2.5);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0) scaleX(1);
+  }
+
+  75% {
+    transform: translate3d(-10px, 0, 0) scaleX(0.98);
+  }
+
+  90% {
+    transform: translate3d(5px, 0, 0) scaleX(0.995);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounce-In-right {
+  0% {
+    opacity: 0;
+    transform: translate3d(2500px, 0, 0) scaleX(2.5);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0) scaleX(1);
+  }
+
+  75% {
+    transform: translate3d(10px, 0, 0) scaleX(0.98);
+  }
+
+  90% {
+    transform: translate3d(-5px, 0, 0) scaleX(0.995);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
   }
 }
 /* Fade-In */
@@ -186,7 +295,7 @@ html {
   animation-duration: 730ms;
 }
 @keyframes Entrance-right {
-0% {
+  0% {
     transform: translateX(900px) scale(0.7);
     opacity: 0.7;
   }
@@ -202,7 +311,7 @@ html {
   }
 }
 @keyframes Entrance-left {
-0% {
+  0% {
     transform: translateX(-900px) scale(0.7);
     opacity: 0.7;
   }
@@ -218,7 +327,7 @@ html {
   }
 }
 @keyframes Entrance-up {
-0% {
+  0% {
     transform: translateY(-1200px) scale(0.7);
     opacity: 0.7;
   }
@@ -234,7 +343,7 @@ html {
   }
 }
 @keyframes Entrance-down {
-0% {
+  0% {
     transform: translateY(1200px) scale(0.7);
     opacity: 0.7;
   }
