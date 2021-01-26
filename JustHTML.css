@@ -9,6 +9,23 @@ html {
   overflow-x: hidden;
   overflow-y: auto;
 }
+/* Rotate In */
+.rotate-In {
+  animation-name: rotate-In;
+  animation-duration: 800ms;
+}
+  
+@keyframes rotate-In {
+   0% {
+    transform: rotate3d(0, 0, 1, 250deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
 /* Bounce */
 .bounce-In {
   animation-name: bounce-In;
