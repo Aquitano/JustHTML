@@ -19,12 +19,12 @@ function printSlideIndex() {
     "Entrance-right",
     "Entrance-up",
     "Entrance-down",
-    "bounce-In",
-    "bounce-In-right",
-    "bounce-In-left",
-    "bounce-In-up",
-    "bounce-In-down",
-    "rotate-In"
+    "Bounce-In",
+    "Bounce-In-right",
+    "Bounce-In-left",
+    "Bounce-In-up",
+    "Bounce-In-down",
+    "Rotate-In"
   ];
   if (slider != 15) {
     var element = document.getElementById("D" + slider);

@@ -10,7 +10,7 @@ html {
   overflow-y: auto;
 }
 /* Rotate In */
-.rotate-In {
+.Rotate-In {
   animation-name: rotate-In;
   animation-duration: 800ms;
 }
@@ -27,23 +27,23 @@ html {
   }
 }
 /* Bounce */
-.bounce-In {
+.Bounce-In {
   animation-name: bounce-In;
   animation-duration: 400ms;
 }
-.bounce-In-down {
+.Bounce-In-down {
   animation-name: bounce-In-down;
   animation-duration: 800ms;
 }
-.bounce-In-up {
+.Bounce-In-up {
   animation-name: bounce-In-up;
   animation-duration: 800ms;
 }
-.bounce-In-left {
+.Bounce-In-left {
   animation-name: bounce-In-left;
   animation-duration: 800ms;
 }
-.bounce-In-right {
+.Bounce-In-right {
   animation-name: bounce-In-right;
   animation-duration: 800ms;
 }

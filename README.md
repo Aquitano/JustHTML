@@ -43,3 +43,9 @@ If you have a problem contact me or <a href="https://github.com/Aquitano/JustHTM
 > - Entrance-right <br />
 > - Entrance-up <br />
 > - Entrance-down <br />
+> - Bounce-In <br />
+> - Bounce-In-right <br />
+> - Bounce-In-left <br />
+> - Bounce-In-up <br />
+> - Bounce-In-down <br />
+> - Rotate-In <br />
