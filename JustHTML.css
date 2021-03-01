@@ -9,7 +9,7 @@ html {
   overflow-x: hidden;
   overflow-y: auto;
 }
-/* Rotate In */
+/* Rotate */
 .Rotate-In {
   animation-name: rotate-In;
   animation-duration: 800ms;
@@ -24,6 +24,23 @@ html {
   100% {
     transform: translate3d(0, 0, 0);
     opacity: 1;
+  }
+}
+
+.Rotate-Out {
+  animation-name: rotate-Out;
+  animation-duration: 800ms;
+}
+  
+@keyframes rotate-Out {
+   0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 1, 250deg);
+    opacity: 0;
   }
 }
 /* Bounce */
