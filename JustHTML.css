@@ -3,8 +3,33 @@
  * Copyright 2021 Aquitano.
  * Licensed under MIT (https://github.com/Aquitano/JustHTML/blob/main/LICENSE)
  */
+ 
+/* */
+/* General */
+/* */
 
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+
+.center-transform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* */
 /* Animations */
+/* */
 html {
   overflow-x: hidden;
   overflow-y: auto;
@@ -14,9 +39,9 @@ html {
   animation-name: rotate-In;
   animation-duration: 800ms;
 }
-  
+
 @keyframes rotate-In {
-   0% {
+  0% {
     transform: rotate3d(0, 0, 1, 250deg);
     opacity: 0;
   }
@@ -31,9 +56,9 @@ html {
   animation-name: rotate-Out;
   animation-duration: 800ms;
 }
-  
+
 @keyframes rotate-Out {
-   0% {
+  0% {
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
