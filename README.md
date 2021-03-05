@@ -32,6 +32,17 @@ If you have a problem contact me or <a href="https://github.com/Aquitano/JustHTM
 
 ## **Classes**
 
+> **General**
+> - center <br />
+> - center-flex <br />
+> - enter-absolute <br />
+> - center-transform <br />
+> - split <br />
+> - bold <br />
+> - top <br />
+> - bottom <br />
+
+> **Animations**
 > - AppearOnScroll: Animation only happens when seen by viewer (scroll) <br />
 > - Fade-in <br />
 > - Fly-in-left <br />
@@ -49,3 +60,4 @@ If you have a problem contact me or <a href="https://github.com/Aquitano/JustHTM
 > - Bounce-In-up <br />
 > - Bounce-In-down <br />
 > - Rotate-In <br />
+> - Rotate-Out <br />
