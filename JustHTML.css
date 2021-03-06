@@ -8,6 +8,11 @@
 /* General */
 /* */
 
+.center {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
 .center-flex {
   display: flex;
   align-items: center;
@@ -28,11 +33,6 @@
 .split {
   float: left;
   width: 50%;
-}
-.center {
-  text-align: center;
-  margin: auto;
-  display: block;
 }
 .bold {
   font-weight: bold;
